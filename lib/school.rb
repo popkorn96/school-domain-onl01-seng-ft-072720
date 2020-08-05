@@ -1,9 +1,9 @@
 class School
- def initialize(name)
+  def initialize(name)
    @name = name
    @roster = {}
- end
-attr_accessor :roster
+  end
+  attr_accessor :roster
 
   def add_student(student_name, grade)
     if @roster.include?(grade)
@@ -13,5 +13,7 @@ attr_accessor :roster
      @roster[grade]=[student_name]
     end
   end
-  def 
+  def grade
+    @grade = grade
+  end
  end
