@@ -1,3 +1,3 @@
 class School
- initialize :name
+ initialize(name)
  end
