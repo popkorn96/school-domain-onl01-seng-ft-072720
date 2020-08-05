@@ -1,6 +1,6 @@
 class School
  def initialize(name, roster)
    @name = name
-   @roster = {"key" => "value"}
+   @roster = {"key" => []}
  end
  end
