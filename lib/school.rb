@@ -13,3 +13,4 @@ attr_accessor :roster
    @roster[grade]=[student_name]
  end
  end
+ end
