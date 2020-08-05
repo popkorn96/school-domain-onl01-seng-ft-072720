@@ -15,7 +15,7 @@ class School
   end
   def grade(grade)
     @grade = grade
-    @grade = []
+    @grade = [grade.include?]
   end
   
  end
