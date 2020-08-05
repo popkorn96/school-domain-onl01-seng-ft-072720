@@ -17,5 +17,6 @@ class School
     @grade = grade
     @grade = roster[grade]
   end
-  
+  def sort
+    
  end
