@@ -18,5 +18,6 @@ class School
     @grade = roster[grade]
   end
   def sort
-    roster
+    sort_hash = {}
+    
  end
