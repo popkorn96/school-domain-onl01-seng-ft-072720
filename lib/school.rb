@@ -2,9 +2,8 @@ class School
  def initialize(name)
    @name = name
  end
- def roster
-   @roster = {}
- end
+attr_accessor roster
+
  def add_student(student)
    @roster[student] = 
  end
