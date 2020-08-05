@@ -4,5 +4,5 @@ class School
    ROSTER << roster
  end
  
- ROSTER
+ ROSTER = {"key" => []}
  end
