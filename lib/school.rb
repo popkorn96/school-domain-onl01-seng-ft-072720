@@ -1,3 +1,4 @@
 class School
- initialize(name)
+ def initialize(name)
+   
  end
